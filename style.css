@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #19ced4; 
+    color: white;
+    padding: 20px;
+    position: fixed; 
+}
+
+.bem_vindo {
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: #f4f4f4; 
+    color: #333;
+    padding: 20px;
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
